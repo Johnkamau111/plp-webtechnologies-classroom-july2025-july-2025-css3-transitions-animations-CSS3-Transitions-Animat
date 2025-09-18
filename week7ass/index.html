@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Animations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Bringing Web Pages to Life</h1>
+  </header>
+
+  <main>
+    <!-- Part 1: CSS Animation Demo -->
+    <section>
+      <h2>✨ CSS Transitions & Animations</h2>
+      <button class="animated-btn">Hover Me!</button>
+      <div class="box" id="animatedBox">Watch me animate!</div>
+    </section>
+
+    <!-- Part 2: JavaScript Functions -->
+    <section>
+      <h2>🧠 JavaScript Functions</h2>
+      <p id="functionResult">Result will appear here...</p>
+      <button onclick="showSquare(5)">Calculate 5²</button>
+      <button onclick="showSum(4, 6)">Add 4 + 6</button>
+    </section>
+
+    <!-- Part 3: Combining CSS & JS -->
+    <section>
+      <h2>🎨 Combining CSS + JavaScript</h2>
+      <button id="triggerAnimation">Trigger Box Animation</button>
+      <button id="toggleModal">Open Modal</button>
+
+      <!-- Modal -->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span id="closeModal" class="close">&times;</span>
+          <p>This modal slides and fades thanks to CSS + JS!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
